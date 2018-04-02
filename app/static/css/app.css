@@ -1,3 +1,97 @@
 body {
     padding-top: 5rem;
 }
+
+img
+{
+    max-height: 250px;
+    max-width: 250px;
+    width: 230px;
+    height: 230px;
+}
+
+
+.main
+{
+    border: 2px solid black;
+    padding: 150px;
+}
+
+@keyframes sub-div1
+{
+    0%   {background-color: rgba(0, 0, 255, 0.4);}
+    25%  {background-color: rgba(0, 0, 255, 0.6);}
+    50%  {background-color: rgba(0, 0, 255, 0.8);}
+    100% {background-color: rgba(0, 0, 255, 1.0);}
+}
+
+#first
+{
+    text-shadow: 2px 2px black;   
+}
+
+.sub-div1
+{
+    border: none;
+    text-decoration: none;
+    background-color: indigo;
+    animation-name: sub-div1;
+    animation-duration: 120s;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    padding: 50px;
+}
+
+@keyframes sub-div2 
+{
+    0%   {background-color: rgba(0, 255, 0, 0.4);}
+    25%  {background-color: rgba(0, 255, 0, 0.6);}
+    50%  {background-color: rgba(0, 255, 0, 0.8);}
+    100% {background-color: rgba(0, 255, 0, 1.0);}
+}
+
+.sub-div2
+{
+    border: none;
+    text-decoration: none;
+    animation-name: sub-div2;
+    animation-duration: 60s;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding: 50px;
+}
+
+#text-wrap1
+{
+    text-justify: inter-word;
+}
+
+@keyframes button
+{
+    0%   {background-color: rgba(255, 0, 0, 0.4);}
+    25%  {background-color: rgba(255, 0, 0, 0.6);}
+    50%  {background-color: rgba(255, 0, 0, 0.8);}
+    100% {background-color: rgba(255, 0, 0, 1.0);}
+}
+
+
+button
+{
+    background-color: lime;
+    animation-name: button;
+    animation-duration: 60s;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    max-height: 150px;
+    max-width: 200px;
+    width: 200px;
+    height: 50px;
+}
